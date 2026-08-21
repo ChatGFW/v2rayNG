@@ -392,7 +392,7 @@
     <string name="connection_test_error">連線測試失敗：%s</string>
     <string name="connection_test_fail">"無法使用網際網路"</string>
     <string name="connection_test_error_status_code">錯誤碼：#%d</string>
-    <string name="connection_connected">"已連線。輕觸以檢查連線。"</string>
+    <string name="connection_connected">"已連線，輕觸以檢查連線"</string>
     <string name="connection_not_connected">"未連線"</string>
     <string name="connection_running_task_left">正在執行的測試：%s</string>
 
