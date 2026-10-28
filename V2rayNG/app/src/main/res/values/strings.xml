@@ -280,20 +280,8 @@
     <string name="title_pref_group_all_display">Show an "All" group tab</string>
     <string name="summary_pref_group_all_display">Combine profiles from every subscription group in one tab.</string>
 
-    <!-- AboutActivity -->
-    <string name="title_pref_feedback">Feedback</string>
-    <string name="summary_pref_feedback">Suggest improvements or report bugs on GitHub</string>
-    <string name="summary_pref_tg_group">Join the Telegram group</string>
-    <string name="toast_tg_app_not_found">Telegram app not found</string>
-    <string name="title_privacy_policy">Privacy policy</string>
     <string name="title_qr_code">QR code</string>
-    <string name="title_about">About</string>
-    <string name="title_source_code">Source code</string>
-    <string name="title_oss_license">Open-source licenses</string>
-    <string name="title_translators">Translators</string>
-    <string name="title_tg_channel">Telegram channel</string>
 
-    <string name="title_pref_promotion">Promotion</string>
 
     <string name="title_pref_auto_update_subscription">Automatically update subscriptions</string>
     <string name="summary_pref_auto_update_subscription">Update your subscriptions automatically at set intervals in the background. Depending on the device, this feature may not always work</string>
@@ -319,10 +307,6 @@
     <string name="title_root_lan_sharing">Share VPN with LAN / tethered devices (root users)</string>
     <string name="summary_root_lan_sharing">Route traffic from Wi-Fi hotspot and USB-tethered devices through the VPN.</string>
 
-    <string name="title_logcat" translatable="false">Logcat</string>
-    <string name="logcat_copy">Copy</string>
-    <string name="logcat_clear">Clear</string>
-    <string name="logcat_share">Share log</string>
     <string name="title_service_restart">Restart service</string>
     <string name="title_del_all_config">Delete configs</string>
     <string name="title_del_duplicate_config">Delete duplicate configs</string>
@@ -405,7 +389,7 @@
     <string name="connection_test_error">Connection test failed: %s</string>
     <string name="connection_test_fail">Internet unavailable</string>
     <string name="connection_test_error_status_code">Error code: #%d</string>
-    <string name="connection_connected">Connected. Tap to check connection.</string>
+    <string name="connection_connected">Connected, Tap to check connection</string>
     <string name="connection_not_connected">Not connected</string>
     <string name="connection_running_task_left">Tests running: %s</string>
 
@@ -518,15 +502,12 @@
     <string name="backup_location_local">Local</string>
     <string name="backup_location_webdav" translatable="false">WebDAV</string>
 
-    <string name="acc_refresh">Refresh log</string>
     <string name="toast_permission_denied_for">%1$s permission denied</string>
     <string name="acc_add_subscription">Add subscription</string>
     <string name="toast_malformed_json_detail">Invalid configuration: %1$s</string>
     <string name="acc_add_asset">Add asset source</string>
     <string name="acc_download_file">Download asset files</string>
     <string name="acc_qr_code">QR code</string>
-    <string name="acc_copy_log">Copy log</string>
-    <string name="acc_clear_log">Clear log</string>
     <string name="acc_add_rule">Add routing rule</string>
     <string name="acc_start">Start service</string>
     <string name="acc_stop">Stop service</string>
@@ -536,7 +517,6 @@
     <string name="acc_more">More options</string>
     <string name="acc_selected_server">Selected</string>
     <string name="acc_share_subscription">Share subscription link</string>
-    <string name="acc_share_log">Share log</string>
     <string name="acc_remove">Remove proxy chain member</string>
     <string name="acc_add_member">Add proxy chain member</string>
     <string name="acc_start_scanner">Start QR scanner</string>

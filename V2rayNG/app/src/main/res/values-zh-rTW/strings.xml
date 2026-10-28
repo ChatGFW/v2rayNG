@@ -280,20 +280,8 @@
     <string name="title_pref_group_all_display">顯示「全部」群組分頁</string>
     <string name="summary_pref_group_all_display">在一個分頁中彙整所有訂閱群組的設定檔。</string>
 
-    <!-- AboutActivity -->
-    <string name="title_pref_feedback">意見回饋</string>
-    <string name="summary_pref_feedback">前往 GitHub 提出改進建議或回報錯誤</string>
-    <string name="summary_pref_tg_group">加入 Telegram 群組</string>
-    <string name="toast_tg_app_not_found">找不到 Telegram 應用程式</string>
-    <string name="title_privacy_policy">隱私權政策</string>
     <string name="title_qr_code">QR Code</string>
-    <string name="title_about">關於</string>
-    <string name="title_source_code">原始碼</string>
-    <string name="title_oss_license">開放原始碼授權</string>
-    <string name="title_translators">翻譯貢獻者</string>
-    <string name="title_tg_channel">Telegram 頻道</string>
 
-    <string name="title_pref_promotion">推廣</string>
 
     <string name="title_pref_auto_update_subscription">自動更新訂閱</string>
     <string name="summary_pref_auto_update_subscription">在背景依指定間隔自動更新訂閱。此功能可能因裝置而無法穩定運作。</string>
@@ -319,10 +307,6 @@
     <string name="title_root_lan_sharing">與區域網路 / 熱點裝置共用 VPN (僅限 Root 使用者)</string>
     <string name="summary_root_lan_sharing">將 Wi-Fi 熱點和 USB 網路共享裝置的流量透過 VPN 轉送。</string>
 
-    <string name="title_logcat" translatable="false">Logcat</string>
-    <string name="logcat_copy">複製</string>
-    <string name="logcat_clear">清除</string>
-    <string name="logcat_share">分享日誌</string>
     <string name="title_service_restart">重新啟動服務</string>
     <string name="title_del_all_config">刪除所有設定</string>
     <string name="title_del_duplicate_config">刪除重複設定</string>
@@ -403,7 +387,7 @@
     <string name="connection_test_error">連線測試失敗：%s</string>
     <string name="connection_test_fail">"無法使用網際網路"</string>
     <string name="connection_test_error_status_code">錯誤碼：#%d</string>
-    <string name="connection_connected">"已連線。輕觸以檢查連線。"</string>
+    <string name="connection_connected">"已連線，輕觸以檢查連線"</string>
     <string name="connection_not_connected">"未連線"</string>
     <string name="connection_running_task_left">正在執行的測試：%s</string>
 
@@ -516,15 +500,12 @@
     <string name="backup_location_local">本機</string>
     <string name="backup_location_webdav" translatable="false">WebDAV</string>
 
-    <string name="acc_refresh">重新整理日誌</string>
     <string name="toast_permission_denied_for">未授予 %1$s 權限</string>
     <string name="acc_add_subscription">新增訂閱</string>
     <string name="toast_malformed_json_detail">設定檔格式不正確：%1$s</string>
     <string name="acc_add_asset">新增資源來源</string>
     <string name="acc_download_file">下載資源檔案</string>
     <string name="acc_qr_code">QR Code</string>
-    <string name="acc_copy_log">複製日誌</string>
-    <string name="acc_clear_log">清除日誌</string>
     <string name="acc_add_rule">新增路由規則</string>
     <string name="acc_start">啟動服務</string>
     <string name="acc_stop">停止服務</string>
@@ -534,7 +515,6 @@
     <string name="acc_more">更多選項</string>
     <string name="acc_selected_server">Selected</string>
     <string name="acc_share_subscription">分享訂閱連結</string>
-    <string name="acc_share_log">分享日誌</string>
     <string name="acc_remove">移除代理鏈成員</string>
     <string name="acc_add_member">新增代理鏈成員</string>
     <string name="acc_start_scanner">啟動 QR Code 掃描器</string>
