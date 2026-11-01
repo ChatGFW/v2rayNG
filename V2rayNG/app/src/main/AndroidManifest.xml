@@ -136,9 +136,6 @@
             android:name=".ui.ScannerActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.logcat.LogcatActivity"
-            android:exported="false" />
-        <activity
             android:name=".ui.routing.RoutingSettingActivity"
             android:exported="false" />
         <activity
@@ -206,12 +203,6 @@
             android:exported="false" />
         <activity
             android:name=".ui.backup.BackupActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.AboutActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.TranslatorsActivity"
             android:exported="false" />
 
         <service
