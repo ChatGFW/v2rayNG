@@ -361,7 +361,7 @@ fun ServerGroupScreen(
                         IconButton(onClick = { fallbackTag = "" }) {
                             Icon(
                                 painterResource(R.drawable.ic_delete_24dp),
-                                contentDescription = "${stringResource(R.string.logcat_clear)}, $fallbackLabel"
+                                contentDescription = "${stringResource(R.string.action_clear)}, $fallbackLabel"
                             )
                         }
                     }

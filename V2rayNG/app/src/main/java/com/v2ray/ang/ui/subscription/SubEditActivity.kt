@@ -348,7 +348,7 @@ private fun ProfileSelectDialogField(
         IconButton(onClick = onClear) {
             Icon(
                 painterResource(R.drawable.ic_delete_24dp),
-                contentDescription = "${stringResource(R.string.logcat_clear)}, $label"
+                contentDescription = "${stringResource(R.string.action_clear)}, $label"
             )
         }
     }
