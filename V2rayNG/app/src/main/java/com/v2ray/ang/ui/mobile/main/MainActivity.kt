@@ -18,11 +18,9 @@ import com.v2ray.ang.enums.PermissionType
 import com.v2ray.ang.extension.toast
 import com.v2ray.ang.handler.SettingsChangeManager
 import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.ui.mobile.AboutActivity
 import com.v2ray.ang.ui.mobile.BackupActivity
 import com.v2ray.ang.ui.mobile.base.HelperBaseComponentActivity
 import com.v2ray.ang.ui.mobile.CheckUpdateActivity
-import com.v2ray.ang.ui.mobile.LogcatActivity
 import com.v2ray.ang.vm.MainViewModel
 import com.v2ray.ang.ui.mobile.PerAppProxyActivity
 import com.v2ray.ang.ui.mobile.RoutingSettingActivity
@@ -45,7 +43,6 @@ import com.v2ray.ang.ui.mobile.main.component.MainScreen
 import com.v2ray.ang.ui.mobile.SubSettingActivity
 import com.v2ray.ang.ui.mobile.UserAssetActivity
 import com.v2ray.ang.util.LogUtil
-import com.v2ray.ang.util.Utils
 
 open class MainActivity : HelperBaseComponentActivity() {
 
@@ -140,17 +137,8 @@ open class MainActivity : HelperBaseComponentActivity() {
             MainDestination.Routing -> Intent(this, RoutingSettingActivity::class.java)
             MainDestination.UserAssets -> Intent(this, UserAssetActivity::class.java)
             MainDestination.Settings -> Intent(this, SettingsActivity::class.java)
-            MainDestination.Logcat -> Intent(this, LogcatActivity::class.java)
             MainDestination.CheckUpdate -> Intent(this, CheckUpdateActivity::class.java)
             MainDestination.BackupRestore -> Intent(this, BackupActivity::class.java)
-            MainDestination.About -> Intent(this, AboutActivity::class.java)
-            MainDestination.Promotion -> {
-                Utils.openUri(
-                    this,
-                    "${Utils.decode(AppConfig.APP_PROMOTION_URL)}?t=${System.currentTimeMillis()}"
-                )
-                return
-            }
         }
         settingsActivityLauncher.launch(intent)
     }
